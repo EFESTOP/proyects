@@ -1,0 +1,122 @@
+* {
+    font-family: sans-serif;
+    
+}
+
+html, body {
+    height: 100%;
+    
+}
+
+/*  main*/
+main {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+}
+
+/*  contenerdor  */
+.contenedor {
+    width: 35%;
+    margin:  auto;
+    align-content: center;
+    max-width:  720px;
+    min-width: 500px;
+    max-height: 1020px;
+    min-height: 800px;
+}
+
+/* superio   */
+
+.superior {
+    padding: 10rem;
+    background-color: blue;
+    border-radius: 0.5rem 0.5rem 0 0;
+    background-image: url(/images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* inferior  */
+.inferior {
+    padding: 2.3rem;
+    background-color: white;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+
+/*  titulo */
+.title {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+/* contenido */
+.content {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+/*  PAGO  */
+.pago {
+    background-color: rgb(242, 242, 247);
+    display: flex;
+    gap: 30px;
+    padding: 1.2rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 4rem;
+    box-shadow: .3rem .3rem .3rem  lightgray;
+}
+
+.valor {
+    font-size: 1rem;
+    position: relative;
+    bottom: -40px;
+    left: -121px;
+    padding-bottom: 0.5rem;
+    color: rgb(23, 196, 196);
+}
+
+.change {
+    position: relative;
+    right: -70px;
+    bottom: -20px;
+    color: purple;
+    font-weight: bold ;
+}
+
+
+/*  PROCEED  */
+.proceed {
+    font-size: 1.2rem;
+    background-color: blue;
+    padding: 1.3rem;
+    margin-top: 5rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem;
+    border-radius: 1rem;
+    color: white;
+    box-shadow: .2rem .2rem .2rem blue;
+}
+
+/*  CANCEL */
+.cancel {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+    font-size: 20px;
+}
