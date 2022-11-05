@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/main.css" />
+    <link rel="stylesheet" href="/CSS/mobile.css">
+    <script src="/JS/main.js" defer></script>
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!---main--->
+    <main class="main">
+      <!--section description-->
+      <section class="description">
+        <!--title-->
+        <h1 class="title">Learn to code by watching others</h1>
+        <!--description text-->
+        <p class="description-text">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </section>
+
+      <!--section formulary-->
+      <section class="formulary">
+        <!--promotion-->
+        <div class="promotion">
+          <p class="promotion-text">
+            <strong>Try it free 7 days </strong>then $20/mo. thereafter
+          </p>
+        </div>
+
+        <!--form box-->
+        <div class="form-box">
+          <!--form-->
+          <form action="log" autocomplete="off" novalidate>
+            <!--first name-->
+            <label for="fname" class="fname">
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="First Name"
+                required
+                class="clear"
+                maxlength="30"
+              />
+              <i class="icon-error"
+                ><img
+                  src="/images/icon-error.svg"
+                  alt="icon-error"
+                  
+              /></i>
+              
+            </label>
+            <p class="fname-error-msg"></p>
+
+            <!--last name-->
+            <label for="lname" class="lname">
+              <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="Last Name"
+                required
+                class="clear"
+                maxlength="30"
+              />
+              <i class="icon-error"
+                ><img
+                  src="/images/icon-error.svg"
+                  alt="icon-error"
+              /></i>
+            </label>
+            <p class="lname-error-msg"></p>
+
+
+            <!--email address-->
+            <label for="mail">
+              <input
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder="Email Address"
+                class="clear"
+                required
+              />
+              <i class="icon-error"
+                ><img
+                  src="/images/icon-error.svg"
+                  alt="icon-error"
+                  
+              /></i>
+            </label>
+            <p class="mail-error-msg"></p>
+
+
+            <!--password-->
+            <label for="password" class="passw">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+                required
+                class="clear"
+              />
+              <i class="icon-error"
+                ><img
+                  src="/images/icon-error.svg"
+                  alt="icon-error"
+                  
+              /></i>
+            </label>
+            <p class="password-error-msg"></p>
+
+            <!--button-->
+            
+          </form>
+          
+          <button type="submit" id="btn-submit">CLAIM YPUR FREE TRIAL </button>
+
+          <!--terms and services -->
+          <p class="terms-and-serv">
+            By clicking the button, you are agreeing to our
+            <span class="resalt-text">Terms and Services</span>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+  </body>
+</html>
