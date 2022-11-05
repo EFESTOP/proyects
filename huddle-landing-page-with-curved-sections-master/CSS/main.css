@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+  /* height: 100%; */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* flex */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* main */
+
+/* header */
+.header {
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+.btn-header {
+  color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  box-shadow: 0px 0px 7px hsl(322, 100%, 66%);
+}
+
+.btn-header:hover {
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+}
+
+/* first container */
+.first-container {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.principal-cont p {
+    padding: 0  34%;
+}
+
+.btn-principal, .conf a {
+    color: #fff;
+    background-color: hsl(322, 100%, 66%);
+    padding: 1rem 2rem;
+    display: block;
+    max-width: 290px;
+    margin: 2rem auto;
+    border-radius: 25px;
+    box-shadow: 0px 2px 4px hsl(190, 4%, 26%);
+}
+
+.btn-principal:hover, .conf a:hover {
+    box-shadow: 0px 0px 0px hsl(190, 4%, 26%);
+}
+
+.img-cont-principal {
+    margin-top: 6rem;
+}
+
+.img-cont-principal img {
+    width: 60%;
+}
+
+/* counter */
+.counters {
+    justify-content: space-around;
+    margin: 6rem 0;
+}
+
+.communities, .messages {
+    display: flex;
+    flex-direction: column;
+}
+
+.count {
+    font-size: 5rem;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+}
+
+.type-count {
+    text-align: center;
+    font-size: 1.2rem;
+    opacity: 0.5;
+}
+
+/* all content */
+.all-content > div:not(.conf) {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    /* margin: 12rem 0; */
+}
+
+.img-cont img {
+    width: 70%;
+}
+
+.img-cont {
+    width: 50%;
+    text-align: center;
+}
+
+.txt-cont {
+    width: 37%;
+    padding-left: 30px;
+}
+
+.txt-cont h2 {
+    font-weight: 600;
+    font-size: 2.45rem;
+    margin-bottom: 0;
+}
+
+.txt-cont p {
+    line-height: 1.5;
+}
+
+/* grow toge */
+.grow-toge, .your-users {
+    background-color: hsl(207, 100%, 98%);
+}
+
+.courve-img {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+/* flowing Conversations */
+.flowing-conv {
+    margin: 7rem 0;
+}
+
+.flowing-conv .txt-cont {
+    order: 1;
+    padding-left: 0;
+}
+
+/* confirmation */
+.conf {
+    margin: 7rem 0;
+    text-align: center;
+}
+
+.conf span {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.conf a {
+    margin-top: 1rem;
+}
+
+/* footer */
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+}
+
+.footer-main {
+    padding: 1rem;
+    justify-content: space-around;
+
+}
+
+/* .left, .right {
+    width: 50%;
+} */
+
+
+
+.cont-left p {
+    max-width: 300px;
+}
+
+.cont-left span {
+    display: block;
+    margin: 1rem 0;
+}
+
+.cont-right p {
+    max-width: 350px;
+}
+
+button[type="submit"] {
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    border: none;
+    padding: 0.7rem 2.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="email"] {
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: none;
+    width: 350px;
+    margin-right: 20px;
+}
+
+input[type="email"]:invalid {
+    outline: red 2px solid;
+}
+
+.fa-brands {
+    font-size: 2rem;
+    margin: 0 10px;
+}
+
+.fa-brands:hover {
+    color: hsl(322, 100%, 66%);
+    cursor: pointer;
+}
