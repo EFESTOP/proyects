@@ -1,0 +1,75 @@
+@media screen and (max-width: 600px) {
+  .main {
+    padding: 0 10px;
+    width: 100%;
+  }
+
+  .principal {
+    padding-top: 25%;
+  }
+
+  .title-principal {
+    padding: 0 6%;
+    font-size: 2rem;
+  }
+
+  .text-principal {
+    padding: 0 6%;
+  }
+
+  .btn-downl {
+    width: 90%;
+  }
+
+  .content-info {
+    padding: 0 20px;
+  }
+  .flex {
+    flex-direction: column;
+  }
+
+  .second-content-info {
+    height: auto;
+  }
+
+  .text-cont-info {
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .text-cont-info p {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .img-scnd-cont img {
+    width: 90%;
+  }
+
+  .item-workflow {
+    padding: 0 7%;
+  }
+
+  .brands-logos {
+    gap: 70px;
+  }
+
+  .brand-logo {
+    width: 35%;
+  }
+
+  .btn-downld-container {
+    text-align: center;
+  }
+
+  .main-footer {
+    text-align: center;
+    gap: 30px;
+  }
+
+  .about-me {
+    gap: 30px;
+    font-size: 1.1rem;
+  }
+}
