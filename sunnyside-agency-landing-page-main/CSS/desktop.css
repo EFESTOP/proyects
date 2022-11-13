@@ -1,0 +1,294 @@
+* {
+    font-family: 'Barlow', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    background-image: url(/images/desktop/image-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo-container img {
+    height: 30px;
+    width: auto;
+}
+
+.cont-i-menu {
+    display: none;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.contact {
+    background-color: #fff;
+    color: #000;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-family: 'Fraunces', sans-serif;
+}
+
+.contact:hover {
+    background-color: hsla(189, 100%, 76%, 0.692);
+    color: #fff;
+}
+
+.home {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 89vh;
+    gap: 9%;
+}
+
+.title {
+    color: #fff;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: 10px;
+}
+
+/* * containers */
+.containers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.img-container {
+    width: 50%;
+    object-fit: contain;
+    display: flex;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.txt-container {
+    width: 50%;
+    padding: 1rem 11%;
+    padding-left: 10%;
+}
+
+h2 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.txt {
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.stand-out .img-container {
+    order: -1;
+}
+
+.stand-out .txt-container {
+   padding: 1rem 10.5%; 
+}
+
+.learn-more {
+    font-family: 'Fraunces', sans-serif;
+    text-decoration-line:  underline;
+    text-decoration-thickness: 5px;
+    color: #000;
+    margin-top: 3rem;
+    display: block;
+}
+
+.learn-more[id = "link-transform"] {
+    text-decoration-color: hsla(51, 100%, 49%, 0.342);
+}
+
+.learn-more[id = "link-transform"]:hover {
+    text-decoration-color: hsl(51, 100%, 49%);
+
+}
+
+.learn-more[id = "link-stand-out"] {
+    text-decoration-color: hsla(7, 99%, 70%, 0.342);
+}
+
+.learn-more[id = "link-stand-out"]:hover {
+    text-decoration-color: hsl(7, 99%, 70%);
+}
+
+.gr-design, .photography {
+    width: 50%;
+    text-align: center;
+    height: 75vh;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.content {
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.content h3 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.gr-design {
+    background: url(/images/desktop/image-graphic-design.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 0px;
+    color: hsl(167, 40%, 24%);
+}
+
+.photography {
+    background: url(/images/desktop/image-photography.jpg) no-repeat;
+    color: hsl(198, 62%, 26%);
+    background-size: cover;
+    background-position: center;
+    background-position-y: 0px;
+}
+
+/* * profile container */
+.profile-container {
+    flex-direction: column;
+    padding: 4rem;
+    gap: 50px;
+    height: 80vh;
+}
+
+.title-clients {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 1.3rem;
+    opacity: 0.5;
+    letter-spacing: 6px;
+}
+
+.profile-content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+
+.img-profile {
+    border-radius: 50%;
+    width: 70px;
+    height: auto;
+}
+
+.txt-profile {
+    width: 315px;
+    line-height: 1.5;
+    opacity: 0.8;
+}
+
+.description {
+    margin-top: 30px;
+}
+
+.name {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.occupation {
+    opacity: 0.4;
+    margin: 0;
+}
+
+
+.ilustrations {
+    width: 100%;
+}
+
+.ilustration-box {
+    display: flex;
+}
+
+.ilustration {
+    width: 100%;
+}
+
+footer {
+    background-color: hsl(138, 68%, 64%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 30px;
+}
+
+.footer-icon {
+    height: 40px;
+    color: hsl(167, 40%, 24%);
+}
+
+.social {
+    margin-top: 60px;
+}
+
+.li-social:hover , .footer-link:hover {
+    color: #fff;
+}
+
+.social a, .footer-navigation a {
+    color: hsl(167, 40%, 24%);
+}
+
+
+
+
+
+
+
+
+
+

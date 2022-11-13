@@ -1,0 +1,173 @@
+@media only screen and (max-width: 767px) {
+  html,
+  body {
+    width: 100%;
+  }
+
+  .nav-top {
+    padding: 2.5rem 5%;
+  }
+
+  .logo-container {
+    height: 100%;
+    width: 30%;
+  }
+
+  .logo-container img {
+    width: 150px;
+    height: auto;
+  }
+
+  .bar-navigation {
+    display: none;
+  }
+
+  .icon-menu {
+    color: #fff;
+    font-size: 2.8rem;
+    cursor: pointer;
+    display: block;
+  }
+
+  
+  .show {
+    display: block !important;
+  }
+
+  /* .menu-mobile, .conect   {
+    display: none;
+  } */
+
+  .conect {
+    display: none;
+    content: " ";
+    position: absolute;
+    right: 22px;
+    /* padding: 20px; */
+    top: 85px;
+    border-left: 20px solid transparent;
+     border-top: 20px solid transparent;
+     border-right: 20px solid #fff;
+     border-bottom: 20px solid #fff;
+  }
+
+  .menu-mobile {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    z-index: 999;
+    top: 120px;
+  }
+
+  .menu-navigation {
+    display: flex;
+    width: 89vw;
+    max-width: 336px;
+    height: 250px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-menu {
+    background-color: hsl(51, 100%, 49%);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .item-menu:not([class="contact"]) {
+    font-size: 1.3rem;
+    color: #000;
+    text-decoration: none;
+    opacity: 0.7;
+    cursor: pointer;
+
+  }
+
+  .cont-i-menu {
+    display: block;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 10vw;
+  }
+
+  .txt-container {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  .transform .txt-container {
+    margin-bottom: 2rem;
+    order: 2;
+  }
+
+  .containers {
+    flex-direction: column;
+  }
+
+  .containers > * {
+    width: auto;
+    padding: 0;
+  }
+
+  .gr-design,
+  .photography {
+    width: 100%;
+  }
+
+  .title-clients {
+    text-align: center;
+    font-size: 4.5vw;
+    margin-top: 2rem;
+  }
+
+  .profile-container {
+    padding: 0;
+    height: auto;
+  }
+
+  .profile-content {
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+
+  .profile-content:last-child {
+    margin-bottom: 3rem;
+  }
+
+  .profile {
+    display: block;
+  }
+
+  .ilustrations {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .ilustration-box {
+    width: 50%;
+  }
+
+  nav {
+    gap: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 10vw;
+    margin-top: 3rem;
+  }
+
+  .txt {
+    width: 100%;
+    padding: 0 0.8rem;
+    line-height: 1.5;
+  }
+
+  .stand-out .txt-container {
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+}
